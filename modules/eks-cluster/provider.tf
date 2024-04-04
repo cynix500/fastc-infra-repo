@@ -17,7 +17,7 @@ terraform {
 }
 
 provider "aws" {
-  profile = "fastc"
+  profile = "TEST"
   region = "us-east-1"
   alias = "virginia"
 }
