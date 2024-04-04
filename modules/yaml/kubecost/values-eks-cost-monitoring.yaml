@@ -36,7 +36,7 @@ prometheus:
   configmapReload:
     prometheus:
       image:
-        repository: public.ecr.aws/kubecost/prometheus-config-reloader:v0.69.1
+        repository: public.ecr.aws/kubecost/prometheus-config-reloader
 
 reporting:
   productAnalytics: false
